@@ -31,5 +31,5 @@ jobs:
       run: npm install --global surge
 
     - name: deploying using surge
-      run: space ./ Practice_1.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./ Practice_1.surge.sh --token ${{secrets.SURGE_TOKEN}}
 
